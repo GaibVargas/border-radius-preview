@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Border Radius Preview</title>
+</head>
+<body>
+
+  <header><h1>Border radius preview!</h1></header>
+
+  <div class="content">
+    <main>
+      <div class="inputs">
+        <input type="range" min="0" max="100" value=0 name="topLeft" id="topLeft">
+        <input type="range" min="0" max="100" value=0 name="topRight" id="topRight">
+      </div>
+      <div class="preview"></div>
+      <div class="inputs">
+        <input type="range" min="0" max="100" value=0 name="botLeft" id="botLeft">
+        <input type="range" min="0" max="100" value=0 name="botRight" id="botRight">
+      </div>
+    </main>
+    <div class="copy">
+      <textarea name="toCopy" id="toCopy" cols="30" rows="4"></textarea>
+      <button>Copy</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
